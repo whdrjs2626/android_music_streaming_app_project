@@ -9,7 +9,7 @@
     <ScrollView
         android:id="@+id/scrollview1"
         android:layout_width="fill_parent"
-        android:layout_height="505dp"
+        android:layout_height="580dp"
         android:orientation="vertical"
         android:overScrollMode="never"
         android:fillViewport="true"
@@ -33,6 +33,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/music1title"
                         android:layout_width="250dp"
                         android:layout_height="40dp"
                         android:text="Yesterday"
@@ -62,35 +63,31 @@
                 android:visibility="gone">
                 <Button
                     android:id="@+id/music1play"
-                    android:layout_width="50dp"
+                    android:layout_width="70dp"
                     android:layout_height="40dp"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginLeft="35dp"
                     android:layout_marginRight="20dp"
                     android:text="재생"
-                    android:textSize="8dp"></Button>
+                    android:textSize="10dp"></Button>
                 <Button
-                    android:layout_width="50dp"
+                    android:id="@+id/music1info"
+                    android:layout_width="70dp"
                     android:layout_height="40dp"
                     android:layout_marginRight="20dp"
-                    android:text="평가"
-                    android:textSize="8dp"></Button>
+                    android:text="정보"
+                    android:textSize="10dp"></Button>
                 <Button
-                    android:layout_width="50dp"
+                    android:layout_width="70dp"
                     android:layout_height="40dp"
                     android:layout_marginRight="20dp"
-                    android:text="재생"
-                    android:textSize="8dp"></Button>
+                    android:text="좋아요"
+                    android:textSize="10dp"></Button>
                 <Button
-                    android:layout_width="50dp"
+                    android:layout_width="70dp"
                     android:layout_height="40dp"
                     android:layout_marginRight="20dp"
-                    android:text="재생"
-                    android:textSize="8dp"></Button>
-                <Button
-                    android:layout_width="50dp"
-                    android:layout_height="40dp"
-                    android:text="재생"
-                    android:textSize="8dp"></Button>
+                    android:text="관련영상"
+                    android:textSize="9dp"></Button>
             </LinearLayout>
 
             <LinearLayout
@@ -106,6 +103,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/music2title"
                         android:layout_width="250dp"
                         android:layout_height="40dp"
                         android:text="Hotel California"
@@ -179,6 +177,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/music3title"
                         android:layout_width="250dp"
                         android:layout_height="40dp"
                         android:text="Let It Be"
@@ -252,6 +251,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/music4title"
                         android:layout_width="250dp"
                         android:layout_height="40dp"
                         android:text="After Midnight"
@@ -325,6 +325,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/music5title"
                         android:layout_width="250dp"
                         android:layout_height="40dp"
                         android:text="Love of My Life"
@@ -398,6 +399,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/music6title"
                         android:layout_width="250dp"
                         android:layout_height="40dp"
                         android:text="Alone"
@@ -471,6 +473,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/music7title"
                         android:layout_width="250dp"
                         android:layout_height="40dp"
                         android:text="Old Russian Waltz #2"
@@ -544,6 +547,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/music8title"
                         android:layout_width="250dp"
                         android:layout_height="40dp"
                         android:text="Old Money"
@@ -617,6 +621,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/music9title"
                         android:layout_width="250dp"
                         android:layout_height="40dp"
                         android:text="Time Bomb"
@@ -690,6 +695,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/music10title"
                         android:layout_width="250dp"
                         android:layout_height="40dp"
                         android:text="Molotov Heart"
@@ -763,6 +769,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/music11title"
                         android:layout_width="250dp"
                         android:layout_height="40dp"
                         android:text="Lo Fi Chill Hop"
@@ -836,6 +843,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/music12title"
                         android:layout_width="250dp"
                         android:layout_height="40dp"
                         android:text="Work N' Play"
@@ -909,6 +917,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/music13title"
                         android:layout_width="250dp"
                         android:layout_height="40dp"
                         android:text="Bad Like That"
@@ -1010,16 +1019,18 @@
                         android:id="@+id/lyric1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Yesterday - The Beatles"
+                        android:text="title"
                         android:textSize="22dp"
+                        android:textColor="#99004C"
                         android:textAlignment="center"
-                        android:layout_marginTop="10dp"/>
+                        android:layout_marginTop="10dp" />
                     <TextView
                         android:id="@+id/lyric2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="asdasdasdasdasd\nasdasdasd"
-                        android:textSize="18dp"
+                        android:text="lyric"
+                        android:textSize="13dp"
+                        android:textColor="#4C0099"
                         android:textAlignment="center"
                         android:layout_marginTop="10dp"/>
                 </LinearLayout>
@@ -1027,46 +1038,73 @@
 
         </LinearLayout>
     </SlidingDrawer>
+
+
+
     <LinearLayout
         android:id="@+id/player"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_height="104dp"
+        android:orientation="vertical"
         android:layout_alignParentBottom="true"
         android:background="#BBBBff">
-        <ImageView
-            android:id="@+id/playingmusicimage"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/yesterday"></ImageView>
-        <ImageView
-            android:id="@+id/prev"
-            android:src="@drawable/prev"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginLeft="65dp"></ImageView>
-        <ImageView
-            android:id="@+id/play"
-            android:src="@drawable/play"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginLeft="10dp"></ImageView>
-        <ImageView
-            android:id="@+id/next"
-            android:src="@drawable/next"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginLeft="10dp"></ImageView>
-        <ImageView
-            android:id="@+id/equal"
-            android:src="@drawable/equalizer"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginLeft="10dp"
-            android:visibility="invisible"></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/playingmusicimage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/yesterday"></ImageView>
+
+            <ImageView
+                android:id="@+id/shufflebutton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/noshuffle"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"/>
+
+            <ImageView
+                android:id="@+id/prev"
+                android:src="@drawable/prev"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"></ImageView>
+            <ImageView
+                android:id="@+id/play"
+                android:src="@drawable/play"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"></ImageView>
+            <ImageView
+                android:id="@+id/next"
+                android:src="@drawable/next"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"></ImageView>
+            <ImageView
+                android:id="@+id/equal"
+                android:src="@drawable/equalizer"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:visibility="invisible"></ImageView>
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="#7F00FF"
+            android:progressBackgroundTint="#CC99FF"/>
     </LinearLayout>
 </RelativeLayout>
